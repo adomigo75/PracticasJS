@@ -1,7 +1,7 @@
 
 
 let nombre = prompt("Ingrese su nombre");
-if (nombre === null || nombre === "" || !isNaN(nombre)) {
+if (nombre === null || nombre === "" ) {
   alert("usted a  ingresado un nombre valido");
 } else {
   let edad = prompt("Ingrese su edad");
@@ -9,14 +9,13 @@ if (nombre === null || nombre === "" || !isNaN(nombre)) {
     alert("usted a  ingresado una edad valida");
   } else {
     let pais = prompt("Ingrese su pais");
-    if (pais === null || pais === "" || !isNaN(pais)) {
+    if (pais === null || pais === "" ) {
       alert("usted a  ingresado un pais valido");
     } else {
       let departamento = prompt("Ingrese su departamento");
       if (
         departamento === null ||
-        departamento === "" ||
-        !isNaN(departamento)
+        departamento === ""
       ) {
         alert("Debe ingresar un departamento valido");
       } else {
